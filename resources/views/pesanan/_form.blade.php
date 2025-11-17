@@ -70,6 +70,28 @@
 
                     <div class="space-y-2">
                         <label class="text-sm font-semibold text-gray-700 flex items-center">
+                            <i class="fas fa-users mr-2 text-soccer-green"></i>
+                            Jumlah Anggota Keluarga *
+                        </label>
+                        <select name="jumlah_anggota" id="jumlahAnggota"
+                            class="w-full px-4 py-3 min-h-12 text-base border-2 border-gray-200 rounded-xl focus:border-field-green focus:outline-none transition-colors" required>
+                            <option value="">Pilih jumlah anggota</option>
+                            <option value="1">1 Orang</option>
+                            <option value="2">2 Orang</option>
+                            <option value="3">3 Orang</option>
+                            <option value="4">4 Orang</option>
+                            <option value="5">5 Orang</option>
+                            <option value="6">6 Orang</option>
+                            <option value="7">7 Orang</option>
+                            <option value="8">8 Orang</option>
+                            <option value="9">9 Orang</option>
+                            <option value="10">10 Orang</option>
+                        </select>
+                        <p class="text-xs text-gray-500">Jumlah ini akan menentukan banyaknya form anggota di langkah berikutnya.</p>
+                    </div>
+
+                    <div class="space-y-2">
+                        <label class="text-sm font-semibold text-gray-700 flex items-center">
                             <i class="fas fa-signature mr-2 text-gray-500"></i>
                             Nama di Punggung (opsional)
                         </label>
